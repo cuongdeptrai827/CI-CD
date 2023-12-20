@@ -1,6 +1,7 @@
 import math
 import unittest
 
+
 def area_circle(r):
     '''Принимает число r-радиус окружности, возвращает её площадь'''
     return math.pi * r * r
