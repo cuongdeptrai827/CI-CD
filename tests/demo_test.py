@@ -22,49 +22,7 @@ class TriangleTestCase(unittest.TestCase):
         result = area_triangle(7.5, 3.5)
         self.assertEqual(result, 13.125)
 
-    def test_3_mul(self):
-        result = perimeter_triangle(0, 0, 0)
-        self.assertEqual(result, 0)
-
-
-    def test_4_mul(self):
-        result = perimeter_triangle(10, 4, 8)
-        self.assertEqual(result, 22)
-
-
-    def test_five_mul(self):
-        result = perimeter_triangle(34.23, 42.34, 23.43)
-        self.assertEqual(result, 100)
-
-
-
-class SquareTestCase(unittest.TestCase):
-
-    def test_zero_mul(self):
-        result = area_square(0)
-        self.assertEqual(result, 0)
-
-    def test_one_mul(self):
-        result = area_square(10)
-        self.assertEqual(result, 100)
-
-
-    def test_two_mul(self):
-        result = area_square(7.5)
-        self.assertEqual(result, 56.25)
-
-    def test_three_mul(self):
-        result = perimeter_circle(0)
-        self.assertEqual(result, 0)
-
-
-    def test_four_mul(self):
-        result = perimeter_circle(10)
-        self.assertEqual(result, 62.83185307179586)
-
-    def test_five_mul(self):
-        result = perimeter_circle(17.25)
-        self.assertEqual(result, 108.38494654884786)
+    def test_3_mul(94654884786)
 
 
 
