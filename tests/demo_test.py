@@ -51,27 +51,7 @@ class SquareTestCase(unittest.TestCase):
 
 
 
-class RectangleTestCase(unittest.TestCase):
-
-    def test_zero_mul(self):
-        assert rectangle.area_rectangle(0,13) == 0
-
-    def test_one_mul(self):
-        assert rectangle.area_rectangle(10,13) == 130
-
-    def test_two_mul(self):
-        assert rectangle.area_rectangle(67.5, 3.5) == 236.25
-
-
-    def test_three_mul(self):
-        assert rectangle.perimeter_rectangle(0,0) == 0
-
-
-    def test_four_mul(self):
-        assert rectangle.perimeter_rectangle(10, 54) == 128
-
-    def test_five_mul(self):
-        assert rectangle.perimeter_rectangle(67.636, 42.364) == 220
+class RectangleTestCase(unittest.TestC2200
 
 
 class CircleTestCase(unittest.TestCase):
